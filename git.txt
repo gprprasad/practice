@@ -16,3 +16,13 @@ branching strategy
 ------------------
 git hub flow is the best branching strategy.
 github flow simply states that when working on any feature or bug fix, you should create a branch 
+
+creating a branch from git bash and pushing to remote repo
+-----------------------------------------------------------
+git branch topic
+git push -u origin topic
+
+switching one branch to another
+---------------------------------
+git checkout branchname
+Ex:git checkout topic
