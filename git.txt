@@ -12,10 +12,21 @@ branch
 A branch in git is simply a pointer to a commit.
 
 
+
+
+
 branching strategy
 ------------------
 git hub flow is the best branching strategy.
 github flow simply states that when working on any feature or bug fix, you should create a branch 
+
+
+git global configurations
+--------------------------
+git config --global user.email "rajasperception@gmail.com"
+git config --global user.name " raja"
+
+
 
 creating a branch from git bash and pushing to remote repo
 -----------------------------------------------------------
