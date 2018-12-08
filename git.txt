@@ -1,0 +1,18 @@
+git
+----
+1.git is a source control tool.
+2.A place where to keep code,a history of changes and info about who did what and when.
+3.If the team is good with commit messages, you may get info about why a change was made.
+4.Git is a distributed tool which offers many possibilities for collaboration between multiple
+  repositories as well as providing effective ways of working with branches.
+
+
+branch
+------
+A branch in git is simply a pointer to a commit.
+
+
+branching strategy
+------------------
+git hub flow is the best branching strategy.
+github flow simply states that when working on any feature or bug fix, you should create a branch 
