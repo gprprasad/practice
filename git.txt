@@ -37,3 +37,10 @@ switching one branch to another
 ---------------------------------
 git checkout branchname
 Ex:git checkout topic
+
+
+git merge
+-----------
+git checkout master
+git merge topic
+git push
