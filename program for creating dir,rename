@@ -1,0 +1,27 @@
+import os,shutil
+try:
+   if os.path.exists("C:\practice\source") == True: 
+          print("exists")     
+          
+   else:  
+     os.mkdir("C:\practice/source")
+     print("source directory is created")
+     os.mkdir("C:\practice/target")
+     print("target directory is created")
+     f = open("C:\practice\source\sfile.txt","w+")
+     f.write("this is the source file")
+       
+     shutil.copy("C:\practice\source\sfile.txt","C:\practice/target")
+     arr = os.listdir("C:\practice/target")
+     for i in arr:
+        print(i)
+        if i == "sfile.txt" :
+            os.rename("C:\practice/target/sfile.txt","C:\practice/target/tfile.txt") 
+            print("target file is renamed")
+        else:
+            print("operation failed")    
+              
+     
+except Exception as e:
+     print(e)
+      
