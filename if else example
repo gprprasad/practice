@@ -1,0 +1,22 @@
+x = 10
+y = 20
+if x > y:
+    print("x is greater than y")
+else:
+    print("x is not greater than y")
+
+def prasad(a,b):
+    print("prasad() is called",a+b)
+    if a > b:
+        print("a is big")
+    else:
+        print("b is big")
+        
+        
+list = ["gutha","prasad"]
+for i in list :
+    print("first name:",i)
+    
+    
+    
+prasad(20,10)
